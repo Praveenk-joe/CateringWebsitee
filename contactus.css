@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color:#fff;
+    border-bottom: 1px solid #F5F5F7;
+}
+
+.icon
+{
+    position: absolute;
+    margin-left: 30px;
+    top: 10px;
+    word-spacing: 5px;
+}
+.p
+{
+    margin-left:40%;
+    margin-top: 10px;
+}
+.container{
+    height: 15vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.182);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.container nav .logo{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container nav .logo img{
+    width: 80%;
+    height: 120px;
+    left: 10%;
+}
+.container nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.container nav ul{
+    list-style: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(3, 71, 3) ; 
+    font-weight: bolder;
+   
+}
+
+.container nav li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #F13AB1;
+    padding-bottom: 20px;
+
+}
+
+
+.mrngbreakfast
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.venpongal
+{
+    background: url(dosa.jpg)no-repeat; 
+     width: 100%;
+    height: 350px;
+    margin-top: 0px;
+}
+
+.formcontent
+{
+    position: relative;
+    height: 890px;
+    width: 100%;
+    top:20px;
+    display: flex;
+    background-color: #F5F5F7;
+    justify-content: space-around;
+}
+
+.book
+{
+    position: absolute;
+    top: 190px;
+    left: 670px;
+}
+.imgform
+{
+    height: 730px;
+    margin-top: 140px;
+    border-radius: 10px;
+    margin-right: -350px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-repeat: no-repeat;
+    background: url(https://w0.peakpx.com/wallpaper/1000/330/HD-wallpaper-food-dark-foodgraphy-graphy-spicey-tabletop.jpg)no-repeat; 
+    background-size: cover;
+}
+.msg
+{
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+
+.contactform
+{
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 140px;
+    margin-right: 70px;
+    width: 500px;
+}
+
+.contactform input
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    /* margin-top:-910px; */
+}
+
+textarea
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.forms
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    outline: none;
+}
+ .form6
+{
+    min-height: 100px;
+}
+
+.footerpg
+{
+    position: relative;
+    height: 400px;
+    border: 1px solid;
+    top: 140px;
+    background-color: black;
+    color: #fff;
+}
+.footer2
+{
+    position: absolute;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+    left: 20%;
+}
+.company
+{
+    position: absolute;
+    top: 80px;
+    left: 4%;
+
+}
+.gethelp 
+{
+    position: absolute;
+    top: -40px;
+    left: 0%;
+}
+.li
+{
+    list-style: none;
+    position: relative;
+    top: -10px;
+    margin-top: 10px;
+}
+.aaa
+{
+   position: relative;
+   top: 120px;
+   left: 4%;
+    color: white;
+}
+.footer3
+{
+    position: absolute;
+    top: 120px;
+    height: 150px;
+    width: 400px;
+    left: 40%;
+}
+.contact 
+{
+    position: absolute;
+    top: -40px;
+}
+
+.footer4
+{
+    position: absolute;
+    top: 120px;
+    height: 50px;
+    width: 250px;
+    left: 80%;
+}
+.aa
+{
+    color: #fff;
+}
+a:hover
+{
+    color:#F13AB1;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media all and (max-width: 576px)
+{
+    .container nav ul
+    {
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .container
+    {
+        position: relative;
+        max-width:337px;
+    }
+    .container nav .logo img
+    {
+        width:33vw;
+        height: 18vh;
+        position: absolute;
+        left:10% ; 
+    }
+    .burger{
+        display: block;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .icon{
+        display: none;
+    }
+    .p
+    {
+      margin-left: 60px;
+    }
+      .venpongal
+    {
+        height: 100px;
+        margin-top: 5px;
+        width: 337px;
+        left: 20p5x; 
+        background: url(dosa.jpg)no-repeat;
+        background-size: cover;
+    }
+    .formcontent 
+    {
+        position: relative;
+        overflow: hidden;
+        width: 320px;
+        height: 750px;
+        left: 3%;
+    }
+    .contactform
+    {
+       display: block;
+       position: absolute;
+       top: -150px;
+       width: 100%;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       left: 0%;
+       overflow: hidden;
+       width: 330px;
+    }
+    .msg{
+        position: absolute;
+        top: 30px;
+        left: 25%;
+        text-transform: uppercase;
+    }
+    .contactform input
+    {
+        width: 230px;
+    }
+    .form6
+    {
+        width: 230px;
+    }
+
+    .enquirebtn
+    {
+        width: 230px;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 6px;
+        background: black;
+        color: white;
+        border: none;
+    }
+    .footerpg 
+    {
+        position: relative;
+        top: 100px;
+        height: 550px;
+    }
+
+    .footer2{
+        position: absolute;
+        left: 45%;
+    }
+    
+    .footer4
+    {
+       display: none;
+    }
+    .footer3
+    {
+        position: absolute;
+        top: 300px;
+        width: 320px;
+        left: 10px;
+    }
+     .copy
+    {
+        position: absolute;
+        top: 100px;
+        top: 1530px;
+        width: 320px;
+
+    }
+    .privacy
+    {
+        display: none;
+    }
+
+    .imgform,.p22
+    {
+        display: none;
+    }
+}

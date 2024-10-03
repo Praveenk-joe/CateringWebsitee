@@ -1,0 +1,1489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color:#fff;
+    border-bottom: 1px solid #F5F5F7;
+}
+
+.icon
+{
+    position: absolute;
+    margin-left: 30px;
+    top: 10px;
+    word-spacing: 5px;
+}
+.p
+{
+    margin-left:40%;
+    margin-top: 10px;
+}
+.container{
+    height: 15vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.182);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.container nav .logo{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container nav .logo img{
+    width: 80%;
+    height: 120px;
+    left: 10%;
+}
+.container nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.container nav ul{
+    list-style: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(3, 71, 3) ; 
+    font-weight: bolder;
+   
+}
+
+.container nav li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #F13AB1;
+    padding-bottom: 20px;
+
+}
+
+
+.mrngbreakfast
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+.venpongal
+{
+    /* background: url(https://www.malamurthycatering.com/images/banner/menus-kerala.jpg)no-repeat;  */
+    background: url(dosamenu.jpg)no-repeat; 
+    width: 100%;
+    /* border: 4px solid red;
+    overflow: hidden; */
+    height: 400px;
+    margin-top: 0px;
+}
+.menu
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+h2{
+    font-size: 23px;
+    position: absolute;
+    top: 30px;
+    left: 42%;
+}
+
+.text
+{
+    position: absolute;
+    left: 10%;
+    top: 160px;
+    /* color: #F13AB1; */
+    color: white;
+}
+.brfastimg1{
+    border: 1px solid transparent;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 11%;
+    /* background-image: url(istockphoto-1292563627-612x612.jpg); */
+    background-image: url(VenPongal2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation:rotate 40s linear infinite;
+    animation-play-state: paused;
+}
+
+.brfastimg1:hover , .brfastimg2:hover ,  .brfastimg3:hover
+{
+    animation-play-state: running;
+}
+@keyframes rotate
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.ven{
+    position: absolute;
+    top: 390px;
+    font-size: 20px;
+    left: 190px;
+    font-weight: bold;
+}
+
+.brfastimg2{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 40%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/62/South_Indian_non-veg_Meals.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation:rotate 40s linear infinite;
+    animation-play-state: paused;
+    border-radius: 50%;
+} 
+
+.lunch{
+    position: absolute;
+    top: 390px;
+    font-size: 20px;
+    left: 600px;
+    font-weight: bold;
+}
+
+.brfastimg3{
+    border: 1px solid transparent;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 70%;
+    background-image: url(https://media.istockphoto.com/id/980037112/photo/gosht-or-lamb-biryani-prepared-in-basmati-rice-served-with-yogurt-dip-in-terracotta-bowl.jpg?s=612x612&w=0&k=20&c=LY0r5y0tij9MHz2tg802UQGHk-VPUNUYj6x6qGm2bsU=);  /* background-image: url(https://t4.ftcdn.net/jpg/04/41/20/03/360_F_441200344_iTkgSlBqkep1bcSmdWXTA1ZkCRFl9J6a.jpg);  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    animation:rotate 40s linear infinite;
+    animation-play-state: paused;
+} 
+
+
+.dinner
+{
+    position: absolute;
+    top: 390px;
+    font-size: 20px;
+    left: 1010px;
+    font-weight: bold;
+}
+
+.button1
+{
+    position: absolute;
+    top: 465px;
+    left: 14%;
+    width: 160px;
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid rgb(3, 71, 3);
+    background: white;
+    transition: .5s;
+    font-size: 16px;
+}
+
+.button2
+{
+    position: absolute;
+    top: 465px;
+    left: 44%;
+    width: 160px;
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid rgb(3, 71, 3);
+    background: white;
+    transition: .5s;
+    font-size: 16px;
+}
+
+.button3
+{
+    position: absolute;
+    top: 465px;
+    left: 74%;
+    width: 160px;
+    font-size: 16px;
+    transition: .5s;
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid rgb(3, 71, 3);
+    background: white;
+}
+
+ .button5
+{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 140px;
+    transition: .5s;
+    font-size: 16px;
+    height: 47px;
+    background-color:  black;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}  
+
+.button5:hover
+{
+    cursor: pointer;
+    background-color: black;
+
+    border: 1px solid black;
+   
+}
+.button1:hover{
+    background-color: rgb(3, 71, 3);
+    cursor: pointer;
+    color: #fff;
+  
+}
+
+
+.button2:hover{
+    background-color: rgb(3, 71, 3);
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.button3:hover{
+    background-color:rgb(3, 71, 3);
+    cursor: pointer;
+    color: #fff;
+}
+
+.burger
+{
+    display: none;
+}
+
+.container2
+{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 170px;
+}
+
+.img1
+{
+    position: absolute;
+    top: -17%;
+    left: 8%;
+    border-radius: 10px;
+    background-size: cover;
+    /* background-image: url(https://shirdisaicatering.in/assets/img/slider/img-3.webp);  */
+    background-image: url(cook.jpg);
+    height: 500px;
+    width: 500px;
+    
+}
+
+h4{
+    color:rgb(3, 71, 3);
+    position: absolute;
+    top: -50px;
+    left: 60%;
+    font-size:30px;
+}
+
+b1{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
+
+.button4 
+{
+    position: absolute;
+    left: 60%;
+    top: 360px;
+    width: 160px;
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid  rgb(3, 71, 3);
+    background: #fff;
+    color:black;
+    font-size: 16px;
+
+}
+
+.button4:hover{
+    background-color:rgb(3, 71, 3);
+    cursor: pointer;
+    transition: .3s;
+    color:whitesmoke;
+}
+
+.services
+{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services2
+{
+    height: 330px;
+    width: 1300px;
+    top: 230px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    position:absolute;
+    left: 40%;          
+}
+.serviceimg1{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    background-image: url(catering-service.png);
+    background-size: cover;
+    transition: 0.5s ease;
+}
+.serviceimg1:hover ,.serviceimg2:hover,.serviceimg3:hover, .serviceimg4:hover, .serviceimg5:hover,.serviceimg6:hover
+,.serviceimg7:hover, .serviceimg8:hover , .serviceimg9:hover , .serviceimg10:hover , .serviceimg11:hover ,.serviceimg12:hover
+{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.serviceimg2{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    background-image: url(bakshanam.png);
+    background-size: cover;
+    transition: 0.5s ease;
+}
+.serviceimg3{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px; 
+    border-radius: 20px;
+    background-image: url(baloon-decoration.png);
+    background-size: cover;
+    transition: 0.5s ease;
+}
+
+.serviceimg4{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    transition: 0.5s ease;
+    top: 100px;
+     border-radius: 20px;
+     background-image: url(bridal-makeup.png);
+     background-size: cover;
+}
+.serviceimg5{
+    height: 250px;
+    width: 250px;
+    transition: 0.5s ease;
+    top: 30px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+    background-image: url(chanda-melam.png);
+    background-size: cover;
+}
+
+
+.serviceimg6{
+    top: 30px;
+    height: 250px;
+    width: 250px;
+    transition: 0.5s ease;
+    left: 30px;
+    position: relative;
+    border-radius: 20px;
+    background-image: url(pathal-decoration.png);
+    background-size: cover;
+}
+
+.serviceimg7{
+    height: 250px;
+    width: 250px;  top: 30px;
+    position: relative;
+    transition: 0.5s ease;
+    left: 50px;
+    border-radius: 20px;
+    background-image: url(mehind.png);
+    background-size: cover;
+}
+
+.serviceimg8{
+    height: 250px;
+    left: 60px;
+    width: 250px;  top: 30px;
+    position: relative;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    background-image: url(tattoo.png);
+    background-size: cover;
+}
+.servbutton
+{
+    position: absolute;
+    left: 43%;
+    top: 400px;
+    width: 160px; 
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid   #fff;
+    background:rgb(3, 71, 3) ;
+    color:white;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.servbutton:hover
+{
+    background-color:black;
+    cursor: pointer;
+     color:whitesmoke;
+    
+}
+h5
+{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+.h6
+{
+    font-size: 16px;
+    position: absolute;
+    top: 280px;
+    left: 70px;
+}
+.h7
+{
+    font-size: 16px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.container3
+{
+    height:1230px;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background-color:snow;
+}
+.backdrop
+{
+    position: absolute;
+    top:90px;
+    left: 34px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: orange;
+}
+.galary
+{
+    margin-top: 30px;
+    margin-left: 49px;
+}
+.gallery
+{
+    width: 1340px;
+    height: 260px;
+    position: absolute;
+    top: 140px;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gl1
+{
+    height: 260px;
+    width: 400px;
+    background-image: url(CoimbatoreBestCateringServices.jpg);
+    background-size: cover;
+}
+
+.gl2
+{
+    height: 260px;
+    width: 400px;
+    background-image: url(WeddingCateringServicesinCoimbatore.jpg);
+    background-size: cover;
+}
+
+.gl3
+{
+    height: 260px;
+    width: 400px;
+    background-image: url(outdoorcateringserviceCoimbatore.jpg);
+    background-size: cover;
+}
+
+.gallery2
+{
+    width: 1340px;
+    height: 360px;
+    position: absolute;
+    top: 440px;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.armchair
+{
+    position: absolute;
+    top:0px;
+    left: 34px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: orange;
+}
+.gl4
+{
+    height: 260px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 40px;
+    background-image: url(eventmanagementincoimbatore.jpg);
+    background-size: cover;
+}
+
+
+.gl5
+{
+    height: 260px;
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(WeddingCateringServicesCoimbatore.jpg);
+    background-size: cover;
+}
+
+.gl6
+{
+    height: 260px;
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(BestCateringServicesinCoimbatore.jpg);
+    background-size: cover;
+}
+
+.gallery3
+{
+    width: 1340px;
+    height: 430px;
+    position: absolute;
+    top: 780px;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gl7
+{
+    height: 260px;
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(crystal1.jpg);
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.gl8
+{
+    height: 260px;
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(crystal2.jpg);
+    background-size: cover;
+}
+
+.gl9
+{
+    height: 260px;
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(crystal3.jpg);
+    background-size: cover;
+}
+
+.button6
+{
+    position: absolute;
+    left: 43%;
+    top: 360px;
+    width: 160px;
+    padding: 5px 10px 5px 10px;
+    height: 43px;
+    border: 1px solid;
+    background: rgb(3, 71, 3);
+    color:white;
+    font-size: 16px;  
+    transition: .3s;
+}
+
+.button6:hover{
+    background-color:black;
+    cursor: pointer;
+    border: black;
+    color: #fff;
+
+}
+
+.chooseus
+{
+    height: 580px;
+    background-color: #F5F5F7;
+    width: 100%;
+    position: relative;
+    top: 620px;
+}
+.txtcon
+{
+    position: absolute;
+    top: 100px;
+    left: 13%;
+    width: 1100px;
+}
+
+.boxes
+{
+    height: 300px;
+    position: absolute;
+    width: 1200px;
+    left: 5%;
+    color: white;
+    top: 210px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bx
+{
+    height: 250px;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px; 
+    transition: .3s;
+    justify-content: space-around;
+} 
+
+.msg
+{
+    position: absolute;
+    top: 30px;
+    text-transform: uppercase;
+    left: 40%;
+}
+
+.formcontent
+{
+    position: relative;
+    height: 890px;
+    width: 100%;
+    top:713px;
+    display: flex;
+    background-color: #F5F5F7;
+    justify-content: space-around;
+}
+
+.book
+{
+    position: absolute;
+    top: 190px;
+    left: 670px;
+}
+.imgform
+{
+    height: 730px;
+    margin-top: 140px;
+    border-radius: 10px;
+    margin-right: -350px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-repeat: no-repeat;
+    background: url(https://w0.peakpx.com/wallpaper/1000/330/HD-wallpaper-food-dark-foodgraphy-graphy-spicey-tabletop.jpg)no-repeat; 
+    background-size: cover;
+}
+
+.contactform
+{
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 140px;
+    margin-right: 70px;
+    width: 500px;
+}
+
+.contactform input
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    /* margin-top:-910px; */
+}
+
+textarea
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.forms
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    outline: none;
+}
+ .form6
+{
+    min-height: 100px;
+}
+.enquirebtn
+{
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color:  black;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 40px;
+    transition-duration: 2s;
+}
+
+.p1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
+.p2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
+.bx:hover{
+     border: 1px solid rgb(3, 71, 3); 
+     transform: scale(1.1);
+}
+
+.enquirebtn:hover{
+    background-color:rgb(3, 71, 3);
+}
+
+.footerpg
+{
+    position: relative;
+    top: 800px;
+    height: 400px;
+    /* background-color: rgb(125, 219, 125); */
+    background-color: black;
+    color: #fff;
+}
+.company
+{
+    position: absolute;
+    top: -40px;
+    left: 0%;
+    
+}
+.li
+{
+    list-style: none;
+    position: relative;
+    top: -10px;
+    margin-top: 10px;
+}
+.footer1
+{
+    position: absolute;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+    left: 5%;
+    color: #F5F5F7;
+}
+.footer2
+{
+    position: absolute;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+    left: 20%;
+}
+
+.gethelp 
+{
+    position: absolute;
+    top: -40px;
+    left: 0%;
+}
+
+.footer2
+{
+    position: absolute;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+    left: 20%;
+}
+.footer3
+{
+    position: absolute;
+    top: 120px;
+    height: 150px;
+    width: 400px;
+    left: 40%;
+}
+.contact 
+{
+    position: absolute;
+    top: -40px;
+}
+
+.footer4
+{
+    position: absolute;
+    top: 120px;
+    height: 50px;
+    width: 250px;
+    left: 80%;
+}
+.aa
+{
+    color: #fff;
+}
+a:hover
+{
+    color:#F13AB1;
+}
+
+.copy{
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media all and (max-width: 1024px)
+{
+    .img1{
+        position: absolute;
+        left: 30px;
+    }
+    .ven{
+        position: absolute;
+        top: 400px;
+        left: 150px;
+
+    }
+    .lunch
+    {
+        position: absolute;
+        left: 470px;
+        top: 400px;
+    }
+    .dinner
+    {
+        position: absolute;
+        left: 770px;
+        top: 400px;   
+    }
+    .about
+    {
+        width: 300px;
+    }
+    .button2 , .button3
+    {
+        margin-left: 30px;
+    }
+    
+    b1 
+    {
+        text-align: justify;
+        width: 400px;
+        margin-left: 60px;
+        margin-top: -50px;
+    }
+    h4
+    {
+        margin-top: -40px;
+    }
+
+    .button4
+    {
+        margin-top: 55px;
+    }
+
+    .ourservice 
+    {
+        margin-left: 0px;
+    }
+
+    .services
+    {
+        width: 900px;
+    }
+    .services2
+    {
+        width: 900px;
+    }
+
+    .servbutton
+    {
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .container3
+    {
+        overflow: hidden;
+    }
+    .serviceimg4{ 
+        display: none;
+        margin-top: 110px;
+    }
+     .serviceimg8
+    {
+        display: none;
+    }
+    .gallery , .gallery2 , .gallery3
+    {
+        width: 1000px;
+
+    }
+
+    .gl1 , .gl2 , .gl3 , .gl4 ,.gl5 , .gl6 , .gl7 , .gl8 ,.gl9
+    {
+        width: 300px;
+        justify-content: space-evenly;
+    }
+    .boxes{
+        width: 900px;
+    }
+    .txtcon
+    {
+        margin-left: -110px;
+    }
+    .bx4{
+        display: none;
+    }
+    .top
+    {
+        width: 960px;
+        border: 2px solid white;
+    }
+    .pn
+    {
+        position: absolute;
+        top: 10px;
+    }
+    .book{
+        margin-left: -230px;
+    }
+}
+
+
+@media all and (max-width: 576px)
+{
+  
+    .container nav ul
+    {
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .container
+    {
+        position: relative;
+        max-width:400px;
+    }
+    .container nav .logo img
+    {
+        width:33vw;
+        height: 18vh;
+        position: absolute;
+        left:10% ; 
+    }
+    /* body
+    {
+        height: 500vh;
+    } */
+
+    .burger{
+        display: block;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .icon{
+        display: none;
+    }
+    .p
+    {
+      margin-left: 60px;
+    }
+      .venpongal
+    {
+        height: 450px;
+        margin-top: 5px;
+        width: 420px;
+        left: 20px; 
+        /* background-image: url(istockphoto-1292563627-612x612.jpg); */
+        background-image: url(https://media.istockphoto.com/id/1169639937/photo/vegetarian-thali-indian-appetizers-and-snacks-pakora-samosas-and-bhaji-served-with-chutneys.jpg?s=612x612&w=0&k=20&c=LjBe9pUDNIE2WXucU_45GZ8_QR0CBi_6Cgc4uIrgkLw=);
+        background-size: cover;
+    }
+     .text{
+        display: none;
+    } 
+
+    .button5{ 
+       display: none;
+    }
+
+    .button5:hover
+    {
+        background-color:white;
+        border: none;
+        transition: .3ss;
+    }
+    h2
+    {
+        left: 31%;
+        top: 4px; 
+    }
+
+    .brfastimg1
+    {
+        top: 45px;
+        margin-left: 20px;
+    }
+    .button1
+    {
+        position: absolute;
+        top: 370px;
+        background-color: rgb(3, 71, 3);
+        left: 30%;
+        border: rgb(3, 71, 3);
+        color: white;
+    }
+    .button1:hover , .button2:hover , .button3:hover 
+    {
+        background-color: black;
+        border: none;
+        transition: .3s;
+        transform: scale(.9);
+    }
+    .ven{
+        position: absolute;
+        top: 320px;
+        left: 110px;
+    }
+    .brfastimg2 
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: 17%;
+        top: 440px;
+    }
+    .lunch{
+        position: absolute;
+        top: 720px;
+        left: 130px;
+    }
+
+    .button2
+    {
+        margin-top: 310px;
+        background-color: rgb(3, 71, 3);
+        left:23%;
+        border: rgb(3, 71, 3);
+        color: white;
+
+    }
+    .brfastimg3 
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: 17%;
+        top: 840px;
+    }
+
+    .dinner{
+        position: absolute;
+        top: 1120px;
+        left: 130px;
+    }
+
+    .button3
+    {
+        background-color:rgb(3, 71, 3);
+        left: 23%;
+        border: rgb(3, 71, 3);
+        color: white;
+        top: 1170px;
+    }
+
+
+    .container2{
+        position: relative;
+        top: 840px;
+        width: 100%;
+    }
+    .img1
+    {
+        width: 370px;
+        background-image: url(cook.jpg);
+        left: 0;
+        height: 400px;
+    }
+    h4
+    {
+        margin-top: 400px;
+        left: 30%;
+        font-size: 20px;
+    }
+    b1
+    {
+        height: 450px;
+        width: 359px;
+        left: -50px;
+        top: 440px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.182);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .button4
+    {
+        margin-top: 520px;
+        background-color: rgb(3, 71, 3);
+        left: 21%;
+        transition: .3s;
+        color: white;
+    }
+    .button4:hover
+    {
+        background-color: black;
+        color: white;
+    }
+    .services{
+        position: absolute;
+        top: 2900px;
+        width: 350px; 
+       left: -60px;
+    }
+
+    .ourservice
+    {
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .serviceimg1
+    {
+        margin-top: 10px;
+        left: 15%;
+        border: 1px solid;
+        height: 140px;
+        width: 140px;
+    }
+
+    .serviceimg2
+    {
+        margin-top: 10px;
+        left: 20%;
+        border: 1px solid;
+        height: 140px;
+        width: 140px;
+
+    }
+    .serviceimg3
+    {
+        margin-top: 10px;
+        left: 15%;
+        border: 1px solid;
+        height: 140px;
+        width: 140px;
+
+    }
+
+    .serviceimg4
+    {
+        margin-top: 10px;
+        left: 20%;
+        border: 1px solid;
+        height: 140px;
+        width: 140px;    
+    }
+    .services2
+    {
+        display: none;
+    }
+    .serviceimg5 , .serviceimg6 , .serviceimg7 , .serviceimg8
+    {
+        display: none;
+    }
+    .h6 
+    {
+        margin-top: -130px;
+        margin-left: 30px;
+        left: 0%;
+    }
+    .h7
+    {
+        margin-top: -130px;
+        margin-left: 20px;
+        left: 0%;
+
+    }
+
+    .container3{
+        background:none;
+    }
+
+    .backdrop
+    {
+      display: none;
+    }
+
+    .gallery , .galary , .gallery3 , .button6
+    {
+       display: none;
+    }
+    .gallery2
+    {
+        display: none;
+    }
+
+    .armchair{
+        display: none;
+    }
+
+    .chooseus{
+        position: relative;
+        top: 660px;
+        height: 950px;
+        width: 379px;
+        left: 0%;
+        overflow: hidden; 
+    }
+    .txt
+    {
+        position: absolute;
+        top: 40px;
+        left: 90px;
+    }
+    .txtcon{
+      position: absolute;
+      top: 1400px;
+    }
+
+    .bx1{
+        position: relative;
+        left: -100px;
+        top: -100px;
+    }
+    .bx2{
+        position: relative;
+        top: 190px;
+       margin-left: -600px;
+    }
+
+    .bx3{
+        position: relative;
+        top: 480px;
+        right: 500px;
+    }
+   
+    .bx4 
+    {
+        display: none;
+    }
+     .formcontent
+    {
+        display: block;
+        position: absolute;
+        top: 4450px;
+        width: 380px;
+        left: 0px;
+        background-image: url(fruit.avif);
+        
+        overflow: none;
+       
+    }
+
+    .book{
+     display: block;
+     position: absolute;
+     left: 70%;
+     top: -550px;
+     display: none;
+    }
+    .p2
+    {
+        display: block;
+    }
+
+    .p22
+    {
+        display: none;
+    }
+
+    .msg{
+        position: absolute;
+        top: 60px;
+        left: 20%;
+        text-transform: uppercase;
+    }
+    .imgform
+    {
+        display: none;
+    }
+    .contactform
+    {
+       display: block;
+       position: absolute;
+       top: -30px;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       left: 6%;
+       width: 330px;
+    }
+    .contactform input
+    {
+        width: 230px;
+    }
+    .form6
+    {
+        width: 230px;
+    }
+    .enquirebtn
+    {
+        width: 230px;
+    }
+
+    .dosapic
+    {
+        display: none;
+    }
+    .copy
+    {
+        display: none;
+    }
+    .footerpg
+    {
+        display: block;
+        position: relative;
+        top: 1700px;
+        left: 0px;
+        width: 380px;
+        height: 620px;
+    }
+
+    .footer1
+    {
+        position: absolute;
+    }
+    .footer2
+    {
+        position: absolute;
+        left: 210px;
+    }
+
+    .footer3{
+        position: absolute;
+        top: 330px;
+        left: 10px;
+        width: 260px;
+    }
+
+    .footer4{
+        position: absolute;
+        top: 560px;
+        width: 400px;
+        left: 10px;
+    }
+   .aa
+   {
+    position: relative;
+    top: 20%;
+   }
+}

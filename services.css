@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color:#fff;
+    border-bottom: 1px solid #F5F5F7;
+}
+
+.icon
+{
+    position: absolute;
+    margin-left: 30px;
+    top: 10px;
+    word-spacing: 5px;
+}
+.p
+{
+    margin-left:40%;
+    margin-top: 10px;
+}
+.container{
+    height: 15vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.182);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.container nav .logo{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container nav .logo img{
+    width: 80%;
+    height: 120px;
+    left: 10%;
+}
+.container nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.container nav ul{
+    list-style: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(3, 71, 3) ; 
+    font-weight: bolder;
+   
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container nav li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #F13AB1;
+    padding-bottom: 20px;
+
+}
+.burger
+{
+    display: none;
+}
+
+
+
+.mrngbreakfast
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+.venpongal
+{
+    /* background: url(https://img.freepik.com/free-photo/closed-metal-pots_1203-2059.jpg?w=740&t=st=1727715280~exp=1727715880~hmac=3240545426354010389db1ae3bee8d5151819b600aa287328f59620f66ed2319)no-repeat;  */
+    background: url(https://vrweddingplanners.net/wp-content/uploads/2020/10/catering-1-1.jpeg); 
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+}
+.h7
+{
+    font-size: 16px;
+    position: absolute;
+    top: 280px;
+    left: 90px;
+
+}
+
+.h6
+{
+    font-size: 16px;
+    position: absolute;
+    top: 280px;
+    left: 70px;
+}
+.services
+{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services2
+{
+    height: 200px;
+    width: 1300px;
+    top: 110px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    position:absolute;
+    left: 40%;          
+}
+.serviceimg1{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    background-image: url(catering-service.png);
+    background-size: cover;
+}
+.serviceimg2{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    background-image: url(bakshanam.png);
+    background-size: cover;
+}
+.serviceimg3{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px; 
+    border-radius: 20px;
+    background-image: url(baloon-decoration.png);
+    background-size: cover;
+}
+
+.serviceimg4{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+     border-radius: 20px;
+     background-image: url(bridal-makeup.png);
+     background-size: cover;
+}
+.serviceimg5{
+    height: 250px;
+    width: 250px;
+    top: 30px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+    background-image: url(chanda-melam.png);
+    background-size: cover;
+}
+
+
+.serviceimg6{
+    top: 30px;
+    height: 250px;
+    width: 250px;
+    left: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-image: url(pathal-decoration.png);
+    background-size: cover;
+}
+
+.serviceimg7{
+    height: 250px;
+    width: 250px;  top: 30px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+    background-image: url(mehind.png);
+    background-size: cover;
+}
+
+.serviceimg8{
+    height: 250px;
+    left: 10px;
+    width: 250px;  top: 30px;
+    position: relative;
+    border-radius: 20px;
+    background-image: url(tattoo.png);
+    background-size: cover;
+}
+.services3
+{
+    height: 330px;
+    width: 1300px;
+    top: 270px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceimg9{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(candy-machine.png);
+     background-size: cover;
+}
+
+.serviceimg10{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(car-decoration.png);
+     background-size: cover;
+}
+
+.serviceimg11{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(horse-charoit.png);
+     background-size: cover;
+}
+
+.serviceimg12{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 20px;
+     border-radius: 20px;
+     background-image: url(garland.png);
+     background-size: cover;
+}
+
+.services4
+{
+    height: 350px;
+    width: 1300px;
+    top: 300px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceimg13{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(honey-moon-travels.png);
+     background-size: cover;
+}
+.serviceimg14{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(photography.png);
+     background-size: cover;
+}
+.serviceimg15{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(welcome-girls.png);
+     background-size: cover;
+}
+.serviceimg16{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(mangala-vathiyam.png);
+     background-size: cover;
+}
+
+.services5
+{
+    height: 330px;
+    width: 1300px;
+    top: 310px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceimg17{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(roller-icecream.png);
+     background-size: cover;
+}
+
+.serviceimg18{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(stage-decoratiom.png);
+     background-size: cover;
+}
+.serviceimg19{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(thamboolam-bag.png);
+     background-size: cover;
+}
+.serviceimg20{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(tea-stall.png);
+     background-size: cover;
+}
+
+.services6
+{
+    height: 330px;
+    width: 1300px;
+    top: 330px;
+    left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.serviceimg21{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(mascot.png);
+     background-size: cover;
+}
+
+.serviceimg22{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(portite-sketch.png);
+     background-size: cover;
+}
+
+.serviceimg23{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(tavels.png);
+     background-size: cover;
+}
+
+.serviceimg24{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top:5px;
+    left: 10px;
+     border-radius: 20px;
+     background-image: url(vegitable-curving.png);
+     background-size: cover;
+}
+
+.footerpg
+{
+    position: relative;
+    height: 400px;
+    border: 1px solid;
+    top: 500px;
+    background-color: black;
+    color: #fff;
+}
+.footer2
+{
+    position: absolute;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+    left: 20%;
+}
+.company
+{
+    position: absolute;
+    top: 80px;
+    left: 4%;
+
+}
+.gethelp 
+{
+    position: absolute;
+    top: -40px;
+    left: 0%;
+}
+.li
+{
+    list-style: none;
+    position: relative;
+    top: -10px;
+    margin-top: 10px;
+}
+.aaa
+{
+   position: relative;
+   top: 120px;
+   left: 4%;
+    color: white;
+}
+.footer3
+{
+    position: absolute;
+    top: 120px;
+    height: 150px;
+    width: 400px;
+    left: 40%;
+}
+.contact 
+{
+    position: absolute;
+    top: -40px;
+}
+
+.footer4
+{
+    position: absolute;
+    top: 120px;
+    height: 50px;
+    width: 250px;
+    left: 80%;
+}
+.aa
+{
+    color: #fff;
+}
+a:hover
+{
+    color:#F13AB1;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media all and (max-width: 576px)
+{
+    .container nav ul
+    {
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .container
+    {
+        position: relative;
+        max-width:400px;
+    }
+    .container nav .logo img
+    {
+        width:33vw;
+        height: 18vh;
+        position: absolute;
+        left:10% ; 
+    }
+    .burger{
+        display: block;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .icon{
+        display: none;
+    }
+    .p
+    {
+      margin-left: 60px;
+    }
+      .venpongal
+    {
+        height: 100px;
+        margin-top: 5px;
+        width: 400px;
+        left: 20p5x; 
+        background: url(https://vrweddingplanners.net/wp-content/uploads/2020/10/catering-1-1.jpeg)no-repeat;
+        background-size: cover;
+    }
+
+    .services
+    {
+        position: relative;
+        height: 600px;
+        width: 100%;
+        left: 0px;
+        top: 10px;
+        overflow: hidden;
+    }
+    .ourservice
+    {
+        position: absolute;
+        left: 80px;
+        top: 20px;
+    }
+
+    .serviceimg1 , .serviceimg2
+    {
+        height: 150px;
+        width: 150px;
+        margin-left: -20px;
+    }
+    .serviceimg3 , .serviceimg4
+    {
+        height: 140px;
+        width: 140px;
+        margin-top: -120px;
+        margin-left: -20px;
+    }
+    .h6 
+    {
+        margin-top: -110px;
+        margin-left: -60px;
+        width: 400px;
+    }  
+    .h7 , .h8
+    {
+        margin-top: -110px;
+        margin-left: -50px;
+    }
+    
+    .services2
+    {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0px;
+        top: -30px;
+        overflow: hidden;
+    }
+    .serviceimg5 , .serviceimg6 , .serviceimg11 , .serviceimg12 , .serviceimg13 , .serviceimg14
+    {
+       display: none;
+    }
+    .serviceimg7, .serviceimg8 
+    {
+        height: 150px;
+        width: 150px;
+        margin-left: -20px;
+        margin-top: 0px;
+
+    }
+
+    .services3
+    {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0px;
+        top: 10px;
+        overflow: hidden; 
+    }
+
+    .serviceimg9, .serviceimg10 
+    {
+        height: 150px;
+        width: 150px;
+        margin-top: 0px; 
+        margin-left: -20px;  
+    }
+
+    .services4 , .services5 ,  .services6 
+    {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0px;
+        top: 10px;
+        overflow: hidden; 
+    }
+    .serviceimg15, .serviceimg16 
+    {
+        height: 150px;
+        width: 150px;
+        margin-left: -20px;
+        margin-top: 0px;   
+    } 
+    .serviceimg19, .serviceimg20 , .serviceimg21, .serviceimg22 
+    {
+        height: 150px;
+        width: 150px;
+        margin-top: 0px;
+        margin-left: -20px;   
+    } 
+
+    .serviceimg17 , .serviceimg18 ,.serviceimg23, .serviceimg24 
+    {
+        display: none;
+    }
+    .footerpg 
+    {
+        position: relative;
+        top: 100px;
+        height: 550px;
+    }
+
+    .footer2{
+        position: absolute;
+        left: 45%;
+    }
+    
+    .footer4
+    {
+       display: none;
+    }
+    .footer3
+    {
+        position: absolute;
+        top: 300px;
+        width: 320px;
+        left: 10px;
+    }
+     .copy
+    {
+        position: absolute;
+        top: 100px;
+        top: 2640px;
+
+    }
+    .privacy
+    {
+        display: none;
+    }
+
+}
