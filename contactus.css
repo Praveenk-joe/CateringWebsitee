@@ -10,7 +10,9 @@
     background-color:#fff;
     border-bottom: 1px solid #F5F5F7;
 }
-
+.burger{
+    display: none;
+}
 .icon
 {
     position: absolute;
@@ -255,6 +257,20 @@ a:hover
     align-items: center;
 }
 
+.enquirebtn
+{
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color:  black;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 40px;
+    transition-duration: 2s;
+}
 
 @media all and (max-width: 576px)
 {
@@ -318,7 +334,7 @@ a:hover
        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
        left: 0%;
        overflow: hidden;
-       width: 330px;
+     
     }
     .msg{
         position: absolute;
