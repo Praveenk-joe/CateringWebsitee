@@ -132,7 +132,7 @@ h2{
     background-repeat: no-repeat;
     border-radius: 50%;
     animation:rotate 40s linear infinite;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
 }
 
 .brfastimg1:hover , .brfastimg2:hover ,  .brfastimg3:hover
@@ -169,7 +169,7 @@ h2{
     background-size: 100%;
     background-repeat: no-repeat;
     animation:rotate 40s linear infinite;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
     border-radius: 50%;
 } 
 
@@ -193,7 +193,7 @@ h2{
     background-repeat: no-repeat;
     border-radius: 50%;
     animation:rotate 40s linear infinite;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
 } 
 
 
@@ -1465,7 +1465,8 @@ a:hover
     .footer2
     {
         position: absolute;
-        left: 210px;
+        left: 170px;
+        /* border: 1px solid red; */
     }
 
     .footer3{
@@ -1473,17 +1474,20 @@ a:hover
         top: 330px;
         left: 10px;
         width: 260px;
+        /* border: 1px solid red; */
     }
 
     .footer4{
         position: absolute;
         top: 560px;
-        width: 400px;
+        width: 300px;
         left: 10px;
+        /* border: 1px solid red; */
     }
    .aa
    {
     position: relative;
     top: 20%;
+   
    }
 }
